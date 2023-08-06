@@ -28,4 +28,4 @@ class delete:
     def studentdelete(x,columnname,oldvalue):
         cur.execute(f"delete from department where {columnname} = '{oldvalue}' ")
         conn.commit()
-        print("Data entered successfully")
+        print("Data entered successfully done")
